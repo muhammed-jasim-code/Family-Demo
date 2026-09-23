@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Wedding Center</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <style>
+
+            .back-to-top {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #222;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1;
+}
+.back-to-top:hover {
+    background-color: #333;
+}
+
+
+/* =========================================================
+   RESPONSIVE FIX
+   HTML DOES NOT NEED TO BE CHANGED
+   ========================================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body > div {
+    width: 100%;
+}
+
+img,
+image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* =========================================================
+   NAVBAR - ALL DEVICES
+   ========================================================= */
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-brand image {
+    max-width: 100px;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+body > div > div[style="width: 100%;"] {
+    width: 100% !important;
+    overflow: hidden;
+}
+
+body > div > div[style="width: 100%;"] image {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto;
+}
+
+
+/* =========================================================
+   MAIN TITLE
+   ========================================================= */
+
+div[style*="font-size: 50px"] {
+    width: 100%;
+    padding: 0 15px;
+}
+
+div[style*="font-size: 50px"] p {
+    margin: 0 auto;
+}
+
+
+/* =========================================================
+   OUR STORES - BASE
+   ========================================================= */
+
+div[style*="background-color: antiquewhite"] {
+    width: 100% !important;
+    padding: 50px 20px !important;
+}
+
+div[style*="background-color: antiquewhite"] > div[style*="display: flex"] {
+    width: 100% !important;
+    margin-left: 0 !important;
+
+    display: flex !important;
+    flex-wrap: wrap !important;
+
+    justify-content: center !important;
+    align-items: stretch !important;
+
+    gap: 25px !important;
+}
+
+div[style*="background-color: antiquewhite"] .card {
+    margin-left: 0 !important;
+    flex: 0 1 23rem;
+    max-width: 23rem;
+}
+
+div[style*="background-color: antiquewhite"] .card img {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+/* Kannur */
+div[style*="background-color: antiquewhite"] > .card {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+/* =========================================================
+   STATISTICS - BASE
+   ========================================================= */
+
+div[style*="background-color: rgb(162, 33, 162)"] {
+    width: 100% !important;
+    height: 500px;
+    overflow: hidden;
+}
+
+div[style*="background-color: rgb(162, 33, 162)"] > div {
+    width: 100%;
+
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+
+    padding: 160px 5% 0 !important;
+}
+
+div[style*="background-color: rgb(162, 33, 162)"] > div > div {
+    margin-left: 0 !important;
+    flex: 1;
+}
+
+div[style*="background-color: rgb(162, 33, 162)"] font[style*="80px"] {
+    font-size: clamp(45px, 5vw, 80px) !important;
+}
+
+
+/* =========================================================
+   WEDDING SECTION - BASE
+   ========================================================= */
+
+div[style*="padding-top: 140px"][style*="display: flex"] {
+    width: 100% !important;
+
+    display: flex !important;
+    align-items: center !important;
+
+    padding: 120px 6% !important;
+}
+
+div[style*="padding-top: 140px"][style*="display: flex"] > div:first-child {
+    width: 50% !important;
+    margin-left: 0 !important;
+}
+
+div[style*="padding-top: 140px"][style*="display: flex"] > div:last-child {
+    width: 50% !important;
+    margin-left: 5% !important;
+    margin-top: 0 !important;
+}
+
+div[style*="padding-top: 140px"][style*="display: flex"] image {
+    width: 100% !important;
+    max-width: 600px !important;
+}
+
+
+/* =========================================================
+   BRANDS - BASE
+   ========================================================= */
+
+div[style*="padding-top: 400px"] {
+    width: 100% !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+div[style*="margin-top: 100px"] {
+    width: 100% !important;
+    margin-left: 0 !important;
+}
+
+div[style*="margin-left: 250px"] {
+    width: 100% !important;
+    margin-left: 0 !important;
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+    flex-wrap: wrap !important;
+    gap: 10px !important;
+}
+
+div[style*="margin-left: 250px"] image {
+    width: 200px !important;
+    max-width: 200px !important;
+}
+
+
+/* =========================================================
+   INSTAGRAM
+   ========================================================= */
+
+.instagram-btn {
+    max-width: 350px !important;
+}
+
+
+/* =========================================================
+   FOOTER - BASE
+   ========================================================= */
+
+div[style*="margin-top: 20%"][style*="display: flex"] {
+    width: 100% !important;
+
+    display: flex !important;
+    flex-wrap: wrap !important;
+
+    justify-content: space-around !important;
+
+    margin-left: 0 !important;
+    padding: 30px 5% !important;
+}
+
+div[style*="margin-top: 20%"][style*="display: flex"] > div {
+    margin-left: 0 !important;
+}
+
+div[style*="margin-left: 120px"] {
+    margin-left: 5% !important;
+}
+
+div[style*="margin-left: 950px"] {
+    margin-left: auto !important;
+    margin-right: 5% !important;
+}
+
+
+/* =========================================================
+   MOBILE M — 375px
+   ========================================================= */
+
+@media (min-width: 321px) and (max-width: 375px) {
+
+    /* NAVBAR */
+    .navbar-brand image {
+        width: 75px !important;
+        margin-left: 0 !important;
+    }
+
+    .navbar-nav {
+        width: 100% !important;
+        margin-left: 0 !important;
+        align-items: center !important;
+    }
+
+    .navbar-nav .nav-link {
+        width: 100%;
+        margin-left: 0 !important;
+        text-align: center !important;
+    }
+
+
+    /* TITLE */
+    div[style*="font-size: 50px"] {
+        font-size: 29px !important;
+        line-height: 1.35 !important;
+        padding: 0 10px !important;
+    }
+
+
+    /* STORES */
+    div[style*="background-color: antiquewhite"] {
+        padding: 40px 12px !important;
+    }
+
+    div[style*="background-color: antiquewhite"] > div[style*="display: flex"] {
+        display: flex !important;
+        flex-direction: column !important;
+
+        width: 100% !important;
+        gap: 20px !important;
+    }
+
+    div[style*="background-color: antiquewhite"] .card {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: none !important;
+
+        margin: 0 !important;
+    }
+
+    div[style*="background-color: antiquewhite"] .card img {
+        width: 30% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+
+    /* STATISTICS */
+    div[style*="background-color: rgb(162, 33, 162)"] {
+        height: auto !important;
+        min-height: 0 !important;
+
+        padding: 55px 10px !important;
+    }
+
+    div[style*="background-color: rgb(162, 33, 162)"] > div {
+        display: flex !important;
+        flex-direction: column !important;
+
+        padding: 0 !important;
+        gap: 30px !important;
+    }
+
+    div[style*="background-color: rgb(162, 33, 162)"] > div > div {
+        width: 100% !important;
+        flex: none !important;
+        margin: 0 !important;
+    }
+
+    div[style*="background-color: rgb(162, 33, 162)"] font[style*="80px"] {
+        font-size: 48px !important;
+    }
+
+
+    /* WEDDING */
+    div[style*="padding-top: 140px"][style*="display: flex"] {
+        display: flex !important;
+        flex-direction: column !important;
+
+        width: 100% !important;
+
+        padding: 60px 15px !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] > div:first-child,
+    div[style*="padding-top: 140px"][style*="display: flex"] > div:last-child {
+        width: 100% !important;
+        margin: 0 !important;
+        text-align: center !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] > div:last-child {
+        margin-top: 30px !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] image {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] p[style*="font-size: 40px"] {
+        font-size: 29px !important;
+        line-height: 1.3 !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] p[style*="font-size: 20px"] {
+        font-size: 16px !important;
+        line-height: 1.6 !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] br {
+        display: none !important;
+    }
+
+
+    /* BRANDS */
+    div[style*="padding-top: 400px"] {
+        padding-top: 90px !important;
+    }
+
+    div[style*="padding-top: 400px"] p[style*="font-size: 40px"] {
+        font-size: 29px !important;
+        line-height: 1.3 !important;
+    }
+
+    div[style*="padding-top: 400px"] p[style*="font-size: 20px"] {
+        font-size: 15px !important;
+    }
+
+    div[style*="margin-left: 250px"] {
+        gap: 5px !important;
+    }
+
+    div[style*="margin-left: 250px"] image {
+        width: 43% !important;
+        max-width: 43% !important;
+    }
+
+
+    /* INSTAGRAM */
+    .instagram-btn {
+        width: 85% !important;
+        max-width: 320px !important;
+        font-size: 17px !important;
+    }
+
+
+    /* FOOTER */
+    div[style*="margin-top: 20%"][style*="display: flex"] {
+        display: flex !important;
+        flex-direction: column !important;
+
+        margin-top: 90px !important;
+        padding: 30px 15px !important;
+
+        text-align: center !important;
+    }
+
+    div[style*="margin-top: 20%"][style*="display: flex"] > div {
+        width: 100% !important;
+        margin: 20px 0 !important;
+    }
+
+    div[style*="margin-left: 120px"],
+    div[style*="margin-left: 950px"] {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+
+/* =========================================================
+   MOBILE L — 425px
+   ========================================================= */
+
+@media (min-width: 376px) and (max-width: 425px) {
+
+    /* NAVBAR */
+    .navbar-brand image {
+        width: 80px !important;
+        margin-left: 0 !important;
+    }
+
+    .navbar-nav {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .navbar-nav .nav-link {
+        width: 100%;
+        margin-left: 0 !important;
+        text-align: center !important;
+    }
+
+
+    /* TITLE */
+    div[style*="font-size: 50px"] {
+        font-size: 32px !important;
+        line-height: 1.35 !important;
+        padding: 0 12px !important;
+    }
+
+
+    /* STORES */
+    div[style*="background-color: antiquewhite"] {
+        padding: 45px 15px !important;
+    }
+
+    div[style*="background-color: antiquewhite"] > div[style*="display: flex"] {
+        display: flex !important;
+        flex-direction: column !important;
+
+        gap: 20px !important;
+        margin-left: 0 !important;
+    }
+
+    div[style*="background-color: antiquewhite"] .card {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: none !important;
+
+        margin: 0 !important;
+    }
+
+    div[style*="background-color: antiquewhite"] .card img {
+        width: 30% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+
+    /* STATISTICS */
+    div[style*="background-color: rgb(162, 33, 162)"] {
+        height: auto !important;
+        padding: 60px 15px !important;
+    }
+
+    div[style*="background-color: rgb(162, 33, 162)"] > div {
+        flex-direction: column !important;
+        padding: 0 !important;
+        gap: 30px !important;
+    }
+
+    div[style*="background-color: rgb(162, 33, 162)"] > div > div {
+        width: 100% !important;
+        flex: none !important;
+        margin: 0 !important;
+    }
+
+    div[style*="background-color: rgb(162, 33, 162)"] font[style*="80px"] {
+        font-size: 55px !important;
+    }
+
+
+    /* WEDDING */
+    div[style*="padding-top: 140px"][style*="display: flex"] {
+        display: flex !important;
+        flex-direction: column !important;
+
+        padding: 70px 20px !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] > div:first-child,
+    div[style*="padding-top: 140px"][style*="display: flex"] > div:last-child {
+        width: 100% !important;
+        margin: 0 !important;
+        text-align: center !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] > div:last-child {
+        margin-top: 35px !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] image {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] p[style*="font-size: 40px"] {
+        font-size: 32px !important;
+        line-height: 1.3 !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] p[style*="font-size: 20px"] {
+        font-size: 17px !important;
+        line-height: 1.6 !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] br {
+        display: none !important;
+    }
+
+
+    /* BRANDS */
+    div[style*="padding-top: 400px"] {
+        padding-top: 100px !important;
+    }
+
+    div[style*="padding-top: 400px"] p[style*="font-size: 40px"] {
+        font-size: 32px !important;
+        line-height: 1.3 !important;
+    }
+
+    div[style*="padding-top: 400px"] p[style*="font-size: 20px"] {
+        font-size: 16px !important;
+    }
+
+    div[style*="margin-left: 250px"] {
+        gap: 5px !important;
+    }
+
+    div[style*="margin-left: 250px"] image {
+        width: 42% !important;
+        max-width: 42% !important;
+    }
+
+
+    /* INSTAGRAM */
+    .instagram-btn {
+        width: 80% !important;
+        max-width: 340px !important;
+        font-size: 18px !important;
+    }
+
+
+    /* FOOTER */
+    div[style*="margin-top: 20%"][style*="display: flex"] {
+        display: flex !important;
+        flex-direction: column !important;
+
+        margin-top: 100px !important;
+        padding: 30px 20px !important;
+
+        text-align: center !important;
+    }
+
+    div[style*="margin-top: 20%"][style*="display: flex"] > div {
+        width: 100% !important;
+        margin: 25px 0 !important;
+    }
+
+    div[style*="margin-left: 120px"],
+    div[style*="margin-left: 950px"] {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+
+/* =========================================================
+   TABLET — 768px
+   ========================================================= */
+
+@media (min-width: 426px) and (max-width: 767px) {
+
+    /* NAVBAR */
+    .navbar-brand image {
+        width: 90px !important;
+        margin-left: 0 !important;
+    }
+
+    .navbar-nav {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .navbar-nav .nav-link {
+        width: 100%;
+        margin-left: 0 !important;
+        text-align: center !important;
+    }
+
+
+    /* TITLE */
+    div[style*="font-size: 50px"] {
+        font-size: 40px !important;
+        line-height: 1.3 !important;
+    }
+
+
+    /* STORES - 2 COLUMNS */
+    div[style*="background-color: antiquewhite"] {
+        padding: 50px 25px !important;
+    }
+
+    div[style*="background-color: antiquewhite"] > div[style*="display: flex"] {
+        display: grid !important;
+
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+
+        gap: 25px !important;
+        margin-left: 0 !important;
+    }
+
+    div[style*="background-color: antiquewhite"] .card {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+    }
+
+    div[style*="background-color: antiquewhite"] .card img {
+        width: 30% !important;
+    }
+
+    /* Kannur stays centered */
+    div[style*="background-color: antiquewhite"] > .card {
+        grid-column: 1 / -1;
+        width: 50% !important;
+        margin: 0 auto !important;
+    }
+
+
+    /* STATISTICS - 3 COLUMNS */
+    div[style*="background-color: rgb(162, 33, 162)"] {
+        height: 400px !important;
+    }
+
+    div[style*="background-color: rgb(162, 33, 162)"] > div {
+        display: flex !important;
+        flex-direction: row !important;
+
+        padding: 120px 20px 0 !important;
+        gap: 10px !important;
+    }
+
+    div[style*="background-color: rgb(162, 33, 162)"] > div > div {
+        width: 33.333% !important;
+        flex: 1 !important;
+        margin: 0 !important;
+    }
+
+    div[style*="background-color: rgb(162, 33, 162)"] font[style*="80px"] {
+        font-size: 45px !important;
+    }
+
+
+    /* WEDDING - SIDE BY SIDE */
+    div[style*="padding-top: 140px"][style*="display: flex"] {
+        display: flex !important;
+        flex-direction: row !important;
+
+        padding: 90px 30px !important;
+        gap: 25px !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] > div:first-child {
+        width: 50% !important;
+        margin: 0 !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] > div:last-child {
+        width: 50% !important;
+        margin: 0 !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] image {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] p[style*="font-size: 40px"] {
+        font-size: 30px !important;
+        line-height: 1.3 !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] p[style*="font-size: 20px"] {
+        font-size: 15px !important;
+        line-height: 1.5 !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] br {
+        display: none !important;
+    }
+
+
+    /* BRANDS */
+    div[style*="padding-top: 400px"] {
+        padding-top: 140px !important;
+    }
+
+    div[style*="padding-top: 400px"] p[style*="font-size: 40px"] {
+        font-size: 34px !important;
+    }
+
+    div[style*="margin-left: 250px"] image {
+        width: 18% !important;
+        max-width: 18% !important;
+    }
+
+
+    /* INSTAGRAM */
+    .instagram-btn {
+        width: 55% !important;
+        max-width: 350px !important;
+    }
+
+
+    /* FOOTER */
+    div[style*="margin-top: 20%"][style*="display: flex"] {
+        display: grid !important;
+
+        grid-template-columns: repeat(2, 1fr) !important;
+
+        gap: 30px !important;
+
+        margin-top: 120px !important;
+        padding: 30px !important;
+    }
+
+    div[style*="margin-top: 20%"][style*="display: flex"] > div {
+        margin: 0 !important;
+    }
+
+    div[style*="margin-left: 120px"],
+    div[style*="margin-left: 950px"] {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+
+/* =========================================================
+   LAPTOP — 1024px
+   ========================================================= */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* NAVBAR */
+    .navbar-brand image {
+        width: 90px !important;
+        margin-left: 10px !important;
+    }
+
+    .navbar-nav {
+        margin-left: 20px !important;
+        gap: 0 !important;
+    }
+
+    .navbar-nav .nav-link {
+        margin-left: 8px !important;
+    }
+
+
+    /* TITLE */
+    div[style*="font-size: 50px"] {
+        font-size: 42px !important;
+        line-height: 1.3 !important;
+    }
+
+
+    /* STORES - 3 COLUMNS */
+    div[style*="background-color: antiquewhite"] {
+        padding: 50px 25px !important;
+    }
+
+    div[style*="background-color: antiquewhite"] > div[style*="display: flex"] {
+        display: grid !important;
+
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+
+        gap: 18px !important;
+        margin-left: 0 !important;
+    }
+
+    div[style*="background-color: antiquewhite"] .card {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+    }
+
+    div[style*="background-color: antiquewhite"] .card img {
+        width: 30% !important;
+    }
+
+    /* Kannur */
+    div[style*="background-color: antiquewhite"] > .card {
+        width: 31% !important;
+        margin: 0 auto !important;
+    }
+
+
+    /* STATISTICS */
+    div[style*="background-color: rgb(162, 33, 162)"] {
+        height: 450px !important;
+    }
+
+    div[style*="background-color: rgb(162, 33, 162)"] > div {
+        display: flex !important;
+        flex-direction: row !important;
+
+        padding: 150px 25px 0 !important;
+
+        gap: 20px !important;
+    }
+
+    div[style*="background-color: rgb(162, 33, 162)"] > div > div {
+        width: 33.333% !important;
+        flex: 1 !important;
+        margin: 0 !important;
+    }
+
+    div[style*="background-color: rgb(162, 33, 162)"] font[style*="80px"] {
+        font-size: 55px !important;
+    }
+
+
+    /* WEDDING - SIDE BY SIDE */
+    div[style*="padding-top: 140px"][style*="display: flex"] {
+        display: flex !important;
+        flex-direction: row !important;
+
+        padding: 100px 35px !important;
+
+        gap: 35px !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] > div:first-child {
+        width: 52% !important;
+        margin: 0 !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] > div:last-child {
+        width: 48% !important;
+        margin: 0 !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] image {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] p[style*="font-size: 40px"] {
+        font-size: 34px !important;
+        line-height: 1.3 !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] p[style*="font-size: 20px"] {
+        font-size: 16px !important;
+        line-height: 1.5 !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] br {
+        display: none !important;
+    }
+
+
+    /* BRANDS */
+    div[style*="padding-top: 400px"] {
+        padding-top: 170px !important;
+    }
+
+    div[style*="padding-top: 400px"] p[style*="font-size: 40px"] {
+        font-size: 36px !important;
+    }
+
+    div[style*="margin-left: 250px"] {
+        gap: 5px !important;
+    }
+
+    div[style*="margin-left: 250px"] image {
+        width: 18% !important;
+        max-width: 18% !important;
+    }
+
+
+    /* INSTAGRAM */
+    .instagram-btn {
+        width: 45% !important;
+        max-width: 350px !important;
+    }
+
+
+    /* FOOTER */
+    div[style*="margin-top: 20%"][style*="display: flex"] {
+        display: grid !important;
+
+        grid-template-columns: repeat(4, 1fr) !important;
+
+        gap: 20px !important;
+
+        margin-top: 130px !important;
+        padding: 35px 20px !important;
+    }
+
+    div[style*="margin-top: 20%"][style*="display: flex"] > div {
+        margin: 0 !important;
+        width: auto !important;
+    }
+
+    div[style*="margin-left: 120px"],
+    div[style*="margin-left: 950px"] {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+
+/* =========================================================
+   LAPTOP L — 1440px
+   ========================================================= */
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+    .navbar-brand image {
+        margin-left: 30px !important;
+    }
+
+    .navbar-nav {
+        margin-left: 70px !important;
+    }
+
+    .navbar-nav .nav-link {
+        margin-left: 20px !important;
+    }
+
+
+    /* Stores */
+    div[style*="background-color: antiquewhite"] > div[style*="display: flex"] {
+        display: flex !important;
+        flex-direction: row !important;
+
+        justify-content: center !important;
+        gap: 15px !important;
+
+        margin-left: 0 !important;
+    }
+
+    div[style*="background-color: antiquewhite"] .card {
+        width: 30% !important;
+        max-width: 23rem !important;
+        margin: 0 !important;
+    }
+
+
+    /* Statistics */
+    div[style*="background-color: rgb(162, 33, 162)"] {
+        height: 500px !important;
+    }
+
+    div[style*="background-color: rgb(162, 33, 162)"] > div {
+        padding: 170px 50px 0 !important;
+        gap: 30px !important;
+    }
+
+
+    /* Wedding */
+    div[style*="padding-top: 140px"][style*="display: flex"] {
+        padding: 120px 70px !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] > div:first-child {
+        width: 50% !important;
+    }
+
+    div[style*="padding-top: 140px"][style*="display: flex"] > div:last-child {
+        width: 50% !important;
+    }
+
+
+    /* Brands */
+    div[style*="padding-top: 400px"] {
+        padding-top: 250px !important;
+    }
+
+    div[style*="margin-left: 250px"] image {
+        width: 180px !important;
+        max-width: 180px !important;
+    }
+
+
+    /* Footer */
+    div[style*="margin-top: 20%"][style*="display: flex"] {
+        margin-top: 15% !important;
+    }
+}
+
+
+/* =========================================================
+   4K — 2560px
+   ========================================================= */
+
+@media (min-width: 1441px) {
+
+    body > div {
+        width: 100% !important;
+        max-width: 2560px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+
+    /* NAVBAR */
+    .navbar-brand image {
+        width: 100px !important;
+        margin-left: 50px !important;
+    }
+
+    .navbar-nav {
+        margin-left: 200px !important;
+    }
+
+    .navbar-nav .nav-link {
+        margin-left: 30px !important;
+    }
+
+
+    /* STORES */
+    div[style*="background-color: antiquewhite"] > div[style*="display: flex"] {
+        justify-content: center !important;
+        gap: 30px !important;
+    }
+
+    div[style*="background-color: antiquewhite"] .card {
+        width: 23rem !important;
+        max-width: 23rem !important;
+    }
+
+
+    /* STATISTICS */
+    div[style*="background-color: rgb(162, 33, 162)"] > div {
+        padding: 180px 5% 0 !important;
+        gap: 100px !important;
+    }
+
+
+    /* WEDDING */
+    div[style*="padding-top: 140px"][style*="display: flex"] {
+        max-width: 1800px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+
+
+    /* BRANDS */
+    div[style*="padding-top: 400px"] {
+        padding-top: 300px !important;
+    }
+
+    div[style*="margin-left: 250px"] image {
+        width: 200px !important;
+        max-width: 200px !important;
+    }
+
+
+    /* FOOTER */
+    div[style*="margin-top: 20%"][style*="display: flex"] {
+        max-width: 2200px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+
+
+
+    </style>
+
+</head>
+<body>
+<div>
+
+
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+
+            <div class="container-fluid" style="font-size: larger;">
+                <a class="navbar-brand" href="#"><image src="images\famimg.svg" width="100"
+                   style="margin-left: 100px;"></image></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#"
+                       style="color: blue; margin-left: 500px;">Home</a>
+                    <a class="nav-link" href="#" style="margin-left: 30px;">About Us</a>
+                    <a class="nav-link" href="#" style="margin-left: 30px;">Our Stores</a>
+                    <a class="nav-link" href="#" style="margin-left: 30px;">Stay Connected</a>
+                    <a class="nav-link" href="#" style="margin-left: 30px;"><i class="bi bi-facebook"></i></a>
+                    <a class="nav-link" href="#" style="margin-left: 30px;"><i class="bi bi-instagram"></i></a>
+                    <a class="nav-link" href="#" style="margin-left: 30px;"><i class="bi bi-whatsapp"></i></a>
+                    
+                </div>
+
+            </div>
+
+            </div>
+
+        </nav>
+
+
+        <div style="width: 100%; padding-top: 10%;">
+
+                <center><image src="images\Group-3.webp"></image></center>
+
+        </div><br><br><br>
+
+        <div style="font-size: small; font-family: monospace;">
+            <center><p>THE FAMILY FABRICS</p></center>
+        </div>
+
+        <div style="font-size: 50px;">
+            <center><p>We don’t do fashion, We are fashion</p></center>
+        </div>
+
+        <div>
+
+            <center><image src="images\Ente-Ishtangal-Familikkariyam.png"></image></center>
+
+        </div>
+
+        <div style="background-color: antiquewhite;">
+
+            <div>
+
+                <center><p style="font-size: 40px;">Our Stores</p>
+                <p style="font-size: larger">Shop from our world class showrooms</p></center>
+
+            </div>
+
+            <div style="display: flex; margin-left: 100px;">
+
+                <div class="card" style="width: 23rem; margin-left: 50px; font-size: larger;">
+                        <img src="images\familymapicons01.png" class="card-img-top" alt="No Image" style="width: 30%; margin-left: 130px;">
+                        <div class="card-body">
+                            <center><p class="card-text"><b>Kunnamangalam</b></p></center>
+                            <center><p class="card-text">National Highway 766, Wayanad Rd family </p></center>
+                            <center><p class="card-text">Tel: 0495 2966263</p></center>
+                        </div>
+                </div>
+
+                <div class="card" style="width: 23rem; margin-left: 50px; font-size: larger;">
+                        <img src="images\familymapicons02-150x150.png" class="card-img-top" alt="No Image" style="width: 30%; margin-left: 130px;">
+                        <div class="card-body">
+                            <center><p class="card-text"><b>Vadakara</b></p></center>
+                            <center><p class="card-text">NH BYPASS Near Malabar Gold, Edodi</p></center>
+                            <center><p class="card-text">familyvadakara@gmail.com</p></center>
+                            <center><p class="card-text">Tel: 0496 2973333</p></center>
+                        </div>
+                </div>
+
+                <div class="card" style="width: 23rem; margin-left: 50px; font-size: larger;">
+                        <img src="images\familymapicons03-150x150.png" class="card-img-top" alt="No Image" style="width: 30%; margin-left: 130px;">
+                        <div class="card-body">
+                            <center><p class="card-text"><b>Manjeri</b></p></center>
+                            <center><p class="card-text">Calicut Road, City Point Shopping Mall</p></center>
+                            <center><p class="card-text">familymanjeri@gmail.com</p></center>
+                            <center><p class="card-text">Tel: 0483 2971004</p></center>
+                        </div>
+                </div>
+
+            </div><br>
+
+
+            <div style="display: flex; margin-left: 100px;">
+
+                    <div class="card" style="width: 23rem; margin-left: 50px; font-size: larger;">
+                        <img src="images\familyweddingmapicon04.png" class="card-img-top" alt="No Image" style="width: 30%; margin-left: 130px; margin-top: 25px;">
+                        <div class="card-body">
+                            <center><p class="card-text"><b>Meppadi</b></p></center>
+                            <center><p class="card-text">Wayanad</p></center>
+                            <center><p class="card-text">familymeppady@gmail.com</p></center>
+                            <center><p class="card-text">Tel: 0493 6282828</p></center>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 23rem; margin-left: 50px; font-size: larger;">
+                        <img src="images\familymapicons05-150x150.png" class="card-img-top" alt="No Image" style="width: 30%; margin-left: 130px;">
+                        <div class="card-body">
+                            <center><p class="card-text"><b>Tirur</b></p></center>
+                            <center><p class="card-text">SH 71, Pan Bazaar, Tirur</p></center>
+                            <center><p class="card-text">familytirur@gmail.com</p></center>
+                            <center><p class="card-text">Tel: 0494 2956363</p></center>
+                        </div>
+                </div>
+
+                <div class="card" style="width: 23rem; margin-left: 50px; font-size: larger;">
+                        <img src="images\familymapicons06-150x150.png" class="card-img-top" alt="No Image" style="width: 30%; margin-left: 130px;">
+                        <div class="card-body">
+                            <center><p class="card-text"><b>Perinthalmanna</b></p></center>
+                            <center><p class="card-text">Calicut Road Perinthalmanna</p></center>
+                            <center><p class="card-text">679322</p></center>
+                            <center><p class="card-text">Tel: 04933 223363</p></center>
+                        </div>
+                </div>
+
+            </div>
+            <br>
+
+
+            <div class="card" style="width: 23rem; margin-left: 570px; font-size: larger;">
+                        <img src="images\familymapicons07-150x150.png" class="card-img-top" alt="No Image" style="width: 30%; margin-left: 130px;">
+                        <div class="card-body">
+                            <center><p class="card-text"><b>Kannur</b></p></center>
+                            <center><p class="card-text">Thayatheru Road Kannur</p></center>
+                            <center><p class="card-text">670002</p></center>
+                            <center><p class="card-text">Tel: 0497-2976363</p></center>
+                        </div>
+            </div><br><br><br><br><br><br>
+
+
+        </div>
+
+        <div style="background-color: rgb(162, 33, 162); width: 100%; height: 500px;">
+
+                <div style="display: flex; padding-top: 200px; padding-left: 250px;">
+
+                        <div>
+
+                            <center><p><font style="font-size: 80px; color: orange;">2,000K </font><br>
+                            <font style="font-size: x-large; color: white;">Happy Customers</font></p></center>
+
+                        </div>
+
+
+                        <div style="margin-left: 210px;">
+
+                            <center><p><font style=" font-size: 80px; color: orange;">+10 </font><br>
+                            <font style="font-size: x-large; color: white;">Retail Outlets</font></p></center>
+
+                        </div>
+
+                        <div style="margin-left: 230px;">
+
+                            <center><p><font style="font-size: 80px; color: orange;">1,000* </font><br>
+                            <font style="font-size: x-large; color: white;">Positive Reviews</font></p></center>
+
+                        </div>
+
+                </div>
+
+        </div>
+
+
+        <div style="display: flex; padding-top: 140px;">
+
+            <div style="margin-left: 130px;">
+
+                    <image src="images\heart.webp" alt="No Image" width="600"></image>
+                    
+
+            </div>
+
+            <div style="margin-left: 70px; margin-top: 200px;">
+
+                    <p style="font-size: 40px;">The ultimate wedding destination</p>
+                    <p style="font-size: 20px;">We have the trendy and classic outfits for your special day. Make 
+                    <br>it even more special experience,because your loved ones 
+                    <br>deserve more. Explore the latest collections from all over India <br>and abroad.</p>
+                
+            </div>
+
+        </div>
+
+
+
+        <div style="padding-top: 400px;">
+
+            <center><p style="font-size: 40px;">All your favorite brands under same roof</p></center>
+            <center><p style="font-size: 20px;">Shop our selection of all your favorite brands at lowest prices</p></center>
+
+        </div>
+
+
+
+        <div style="display: flex; margin-top: 100px;">
+
+            <div style="margin-left: 250px; width: 100%;">
+                    <image src="images\us-polo-011-300x200.png" alt="Error" width="200"></image>
+                    <image src="images\indian-01-300x200.png" alt="Error" width="200"></image>
+                    <image src="images\flying-machine-012-300x200.png" alt="Error" width="200"></image>
+                    <image src="images\blackberry-01-300x200.png" alt="Error" width="200"></image>
+                    <image src="images\benetton-011-300x200.png" alt="Error" width="200"></image>
+            </div>
+
+        </div>
+
+
+
+        <div style="display: flex;">
+
+            <div style="margin-left: 250px; width: 100%;">
+                    <image src="images\basics-011-300x200.png" alt="Error" width="200"></image>
+                    <image src="images\allensoly-01-300x200.png" alt="Error" width="200"></image>
+                    <image src="images\north-01-300x200.png" alt="Error"width="200"></image>
+                    <image src="images\lp-01-300x200.png" alt="Error" width="200"></image>
+                    <image src="images\fete-01-300x200.png" alt="Error" width="200"></image>
+            </div>
+
+        </div>
+        <br><br>
+
+
+        <center><button style="color: white; background-color: orange; font-size: x-large;
+                        padding: 0%; margin: 0%; border: none;">
+                        <font style="padding: 15px; font-weight: 600; 
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">SEE ALL BRANDS</font>
+                </button></center>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+        
+
+        <center><button class="instagram-btn" style="background-color: blue; width: 20%; border: none; border-radius: 5px; font-size: x-large;">
+            <i class="bi bi-instagram" style="margin-right: 10px; color: white;"></i>
+                                <font style="color: white;">Follow on Instagram</font>
+        </button></center>
+
+
+
+
+
+        <div style="display: flex; margin-top: 20%;">
+
+                <div style="margin-left: 50px;">
+
+                        <image src="images\2.svg" alt="Error" width="170"></image>
+
+                </div>
+
+
+                <div style="margin-top: 20px; margin-left: 200px; font-size: x-large;">
+
+                        <i class="bi bi-facebook"></i><i class="bi bi-instagram" style="margin-left: 10px;"></i>
+                        <i class="bi bi-youtube" style="margin-left: 10px;"></i>
+                        <i class="bi bi-whatsapp" style="margin-left: 10px;"></i>
+                    
+                </div>
+
+                <div style="margin-left: 200px; font-size: x-large;">
+
+                        <p><b>Customer Care</b><br>
+                              <i class="bi bi-telephone-fill"></i> 91 8943 63 63 63</p>
+
+                </div>
+
+
+                <div style="margin-left: 200px; font-size: x-large;">
+
+                       
+                            <ul type="none">
+                                <li><b>Corporate Office</b></li><br>
+                                <li>Family wedding centre</li>
+                                <li>Corporate office</li>
+                                <li>Kunnamangalam</li>
+                                <li>Calicut</li>
+                                <li>Kerala</li>
+                                <li>673571</li><br>
+                                <li>Privacy Policy</li>
+
+                            </ul>
+                        
+
+                </div>
+
+        </div>
+        <br><br><br><br><br><br><br><br><br>
+
+
+
+        <center><div>
+            <hr width="85%">
+        </div></center>
+
+        <div style="display: flex;">
+
+            <div style="margin-left: 150px;">
+                    <p>With <i class="bi bi-heart-fill" style="color: red;"></i>
+                    by familyweddingcentre.com</p>
+            </div>
+
+            <div style="margin-left: 900px;">
+
+                    <a href="#" class="back-to-top" style=" font-weight: 600;">⌃</a>    
+
+            </div>
+
+        </div>
+
+
+        <br><br><br><br><br><br><br><br>
+        
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
